@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beompyo/static/css/main.033feb72.css",
-    "main.js": "/beompyo/static/js/main.95b88232.js",
+    "main.js": "/beompyo/static/js/main.b7f1a841.js",
     "static/media/banner1.gif": "/beompyo/static/media/banner1.a69277717e9be3b6735d.gif",
     "static/media/banner3.gif": "/beompyo/static/media/banner3.976b88682d9f5112fd33.gif",
     "static/media/banner0.jpg": "/beompyo/static/media/banner0.660518d7a86701923b82.jpg",
@@ -14,10 +14,10 @@
     "static/media/banner9.gif": "/beompyo/static/media/banner9.f585725c88f75b97e4b9.gif",
     "index.html": "/beompyo/index.html",
     "main.033feb72.css.map": "/beompyo/static/css/main.033feb72.css.map",
-    "main.95b88232.js.map": "/beompyo/static/js/main.95b88232.js.map"
+    "main.b7f1a841.js.map": "/beompyo/static/js/main.b7f1a841.js.map"
   },
   "entrypoints": [
     "static/css/main.033feb72.css",
-    "static/js/main.95b88232.js"
+    "static/js/main.b7f1a841.js"
   ]
 }
