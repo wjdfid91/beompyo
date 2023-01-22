@@ -108,7 +108,7 @@ function Best(props) {
   return (
     <div className='product_list'>
       <img onClick={() => { navigate("/best_explain/" +(props.i -1) + ""); }} 
-         src={props.best.src} alt="" width="100%"
+         src={process.env.PUBLIC_URL + props.best.src} alt="" width="100%"
        />
       <div className='best_logo'>
         <p>{props.best.best}</p>
@@ -126,7 +126,7 @@ function New(props) {
   return (
     <div className='product_list'>
       <img onClick={() => { navigate("/new_explain/" +(props.i -1) + ""); }}  
-        src={props.newOne.src} alt="" width="100%" 
+        src={process.env.PUBLIC_URL + props.newOne.src} alt="" width="100%" 
       />
       <p className='new_logo'>{props.newOne.new}</p>
       <h5>{props.newOne.title}</h5>
@@ -142,7 +142,7 @@ function Gift(props) {
   return (
     <div className='product_list'>
       <img onClick={() => { navigate("/gift_explain/" +(props.i -1) + ""); }}  
-        src={props.gift.src} alt="" width="100%" 
+        src={process.env.PUBLIC_URL + props.gift.src} alt="" width="100%" 
       />
       <p className='sale_logo'>{props.gift.sale}</p>
       <h5>{props.gift.title}</h5>

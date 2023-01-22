@@ -31,7 +31,7 @@ function Event(props) {
   return (
     <div id='review_list' className='product_list'>
       <span>{props.review.num}</span>
-      <img src={props.review.src} alt="" width="15%" />
+      <img src={process.env.PUBLIC_URL + props.review.src} alt="" width="15%" />
       <span className='review_title'>{props.review.title}</span>
       <div className='name_date'>
         <span className='name'>{props.review.name}</span>

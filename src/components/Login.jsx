@@ -10,10 +10,10 @@ function Login() {
       <div id="login_wrap">
         <div>
           <div className="back" onClick={() => { navigate("/"); }}>
-            <img src="/images/back.png" alt="" width="8px" /> 뒤로가기
+            <img src={process.env.PUBLIC_URL + "/images/back.png"} alt="" width="8px" /> 뒤로가기
           </div>
           <h1 onClick={() => { navigate("/"); }}>
-            <img src="/images/logo.png" alt="" width="100%" />
+            <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="" width="100%" />
           </h1>
         </div>
         <div className="login_top">
@@ -25,7 +25,7 @@ function Login() {
           <div className="login_kakao">카카오 1초 로그인/회원가입</div>
         </div>
         <div>
-          <img src="/images/login_benefit.jpg" alt="" />
+          <img src={process.env.PUBLIC_URL + "/images/login_benefit.jpg"} alt="" />
         </div>
         <p className="or">또는</p>
         <Tabs

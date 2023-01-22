@@ -18,7 +18,7 @@ function NewExplain(props) {
       <h1 className="sub_h1">상세페이지</h1>
       <div id="product_explain">
         <div className="explain_left">
-          <img src={newEx[id].src} alt="" width="100%" />
+          <img src={process.env.PUBLIC_URL + newEx[id].src} alt="" width="100%" />
         </div>
         <div className="explain_right">
           <div className="top_ex">
@@ -78,7 +78,7 @@ function NewExplain(props) {
       </div>
       <div className='container'>
         <div className='explain_img'>
-          <img src="/images/explain.jpg" alt=""  />
+          <img src={process.env.PUBLIC_URL + "/images/explain.jpg"} alt=""  />
         </div>
       </div>
     </div>

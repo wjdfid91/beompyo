@@ -62,29 +62,29 @@ function Footer(){
             </p>
             <div className="sns">
               <a href="">
-                <img src="/images/sns_insta.svg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/images/sns_insta.svg"} alt="" />
               </a>
               <a href="">
-                <img src="/images/sns_facebook.svg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/images/sns_facebook.svg"} alt="" />
               </a>
               <a href="">
-                <img src="/images/sns_blog.svg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/images/sns_blog.svg"} alt="" />
               </a>
               <a href="">
-                <img src="/images/sns_cafe.svg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/images/sns_cafe.svg"} alt="" />
               </a>
               <a href="">
-                <img src="/images/sns_kakao_ch.svg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/images/sns_kakao_ch.svg"} alt="" />
               </a>
               <a href="">
-                <img src="/images/sns_youtube.svg" alt="" />
+                <img src={process.env.PUBLIC_URL + "/images/sns_youtube.svg"} alt="" />
               </a>
               <a href="">
-                <img src="/images/icon_company.png" alt="" />
+                <img src={process.env.PUBLIC_URL + "/images/icon_company.png"} alt="" />
               </a>
             </div>
             <div className="footer_logo">
-              <img src="/images/logo.png" alt="" />
+              <img src={process.env.PUBLIC_URL + "/images/logo.png"} alt="" />
             </div>
           </div>
         </div>

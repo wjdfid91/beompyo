@@ -85,7 +85,7 @@ function Gift(props) {
 
   return (
     <div onClick={() => { navigate("/gift_explain/" +(props.i -1) + ""); }} className="product_list">
-      <img src={props.gift.src} alt="" width="100%" />
+      <img src={process.env.PUBLIC_URL + props.gift.src} alt="" width="100%" />
       <p className='sale_logo'>{props.gift.sale}</p>
       <h5>{props.gift.title}</h5>
       <span className='discount'>{`${props.gift.discount}%`}</span>

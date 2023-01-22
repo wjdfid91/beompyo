@@ -1,6 +1,7 @@
 import "./App.css";
 import { Routes, Route, useNavigate, } from "react-router-dom";
 
+
 import MainPage from "./Main";
 // views import
 import Header from './views/Header';
@@ -33,9 +34,7 @@ function App() {
       <Header />
       {/* 메인 로고 */}
       <div className="main_logo">
-        <a onClick={() => { navigate("/"); }} href="">
-          <img src='/images/logo.png' />
-        </a>
+          <img onClick={() => { navigate("/"); }} src={process.env.PUBLIC_URL + '/images/logo.png'} style={{cursor : 'pointer'}}/>
       </div>
       {/* 네비게이션 */}
       <Navigation />

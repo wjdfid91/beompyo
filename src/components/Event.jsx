@@ -28,7 +28,7 @@ function Event(props) {
  
   return (
     <div className='product_list'>
-      <img src={props.event.src} alt="" width="100%" />
+      <img src={process.env.PUBLIC_URL + props.event.src} alt="" width="100%" />
       <p>{props.event.title}</p>
       <p>{props.event.date}</p>
     </div>

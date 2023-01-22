@@ -93,7 +93,7 @@ function Best(props) {
   
   return (
     <div onClick={() => { navigate("/best_explain/" +(props.i -1) + ""); }} className='product_list'>
-      <img src={props.best.src} alt="" width="100%" />
+      <img src={process.env.PUBLIC_URL + props.best.src} alt="" width="100%" />
       <p className='best_logo'>{props.best.best}</p>
       <h5>{props.best.title}</h5>
       <span className='discount'>{`${props.best.discount}%`}</span>

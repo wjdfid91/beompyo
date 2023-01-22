@@ -81,7 +81,7 @@ function New(props) {
 
   return (
     <div onClick={() => { navigate("/new_explain/" +(props.i -1) + ""); }} className="product_list">
-      <img src={props.newOne.src} alt="" width="100%" />
+      <img src={process.env.PUBLIC_URL + props.newOne.src} alt="" width="100%" />
       <p className='new_logo'>{props.newOne.new}</p>
       <h5>{props.newOne.title}</h5>
       <span className='discount'>{`${props.newOne.discount}%`}</span>
