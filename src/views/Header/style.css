@@ -1,0 +1,24 @@
+header {
+  background-color: rgb(50, 50, 50);
+  padding: 3px 0;
+}
+.info {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+.info li {
+  cursor: pointer;
+}
+.main_logo {
+  text-align: center;
+  padding: 10px 0;
+}
+/* 스크롤시 고정 */
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}

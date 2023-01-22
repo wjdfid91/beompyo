@@ -1,0 +1,36 @@
+footer {
+  background-color: rgb(69, 66, 66);
+  color: white;
+}
+footer .footer_top li {
+  font-weight: bold;
+}
+
+footer .footer_top {
+  display: flex;
+  justify-content: baseline;
+  gap: 30px;
+  padding: 30px 0;
+}
+footer .footer_mid {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+footer .footer_mid button {
+  color: white;
+  border: 1px solid white;
+  margin-top: 10px;
+  padding: 5px;
+}
+footer .footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+footer .footer_bottom .sns img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}

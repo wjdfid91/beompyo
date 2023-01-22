@@ -1,0 +1,25 @@
+.category {
+  margin: 0 250px 0 10px;
+  font-size: 17px;
+}
+#navbar {
+  border: 1px solid rgb(200, 200, 200);
+}
+.nav-link {
+  font-size: 17px;
+}
+.bgColor {
+  background-color: rgb(247, 247, 247);
+}
+.me-2::placeholder {
+  color: rgb(200, 200, 200);
+}
+#home {
+  cursor: pointer;
+}
+/* 스크롤시 고정 */
+#navbar{
+  position: sticky;
+  top: 30px;
+  z-index: 9999;
+}
