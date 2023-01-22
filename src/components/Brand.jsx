@@ -5,7 +5,7 @@ function Brand(){
         <div>
             <div className="container">
                 <div className='brand_img'>
-                    <img src="/images/brand_page.jpg" alt="" />
+                    <img src={process.env.PUBLIC_URL + "/images/brand_page.jpg"} alt="" />
                 </div>
             </div>
         </div>
