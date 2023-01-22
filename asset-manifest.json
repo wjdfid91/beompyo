@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/beompyo/static/css/main.033feb72.css",
-    "main.js": "/beompyo/static/js/main.95b88232.js",
-    "static/media/banner1.gif": "/beompyo/static/media/banner1.a69277717e9be3b6735d.gif",
-    "static/media/banner3.gif": "/beompyo/static/media/banner3.976b88682d9f5112fd33.gif",
-    "static/media/banner0.jpg": "/beompyo/static/media/banner0.660518d7a86701923b82.jpg",
-    "static/media/banner5.jpg": "/beompyo/static/media/banner5.f7ad76558249e136e0e0.jpg",
-    "static/media/banner4.jpg": "/beompyo/static/media/banner4.c22bb8be40211a7d8215.jpg",
-    "static/media/banner7.gif": "/beompyo/static/media/banner7.fffead67ba72fbf147a0.gif",
-    "static/media/banner6.jpg": "/beompyo/static/media/banner6.75f8bd503960f9cf0457.jpg",
-    "static/media/banner2.gif": "/beompyo/static/media/banner2.8a9159f0602cd7a49952.gif",
-    "static/media/banner8.gif": "/beompyo/static/media/banner8.910c3911eb197d36bc45.gif",
-    "static/media/banner9.gif": "/beompyo/static/media/banner9.f585725c88f75b97e4b9.gif",
-    "index.html": "/beompyo/index.html",
-    "main.033feb72.css.map": "/beompyo/static/css/main.033feb72.css.map",
-    "main.95b88232.js.map": "/beompyo/static/js/main.95b88232.js.map"
+    "main.css": "/static/css/main.033feb72.css",
+    "main.js": "/static/js/main.10b83c36.js",
+    "static/media/banner1.gif": "/static/media/banner1.a69277717e9be3b6735d.gif",
+    "static/media/banner3.gif": "/static/media/banner3.976b88682d9f5112fd33.gif",
+    "static/media/banner0.jpg": "/static/media/banner0.660518d7a86701923b82.jpg",
+    "static/media/banner5.jpg": "/static/media/banner5.f7ad76558249e136e0e0.jpg",
+    "static/media/banner4.jpg": "/static/media/banner4.c22bb8be40211a7d8215.jpg",
+    "static/media/banner7.gif": "/static/media/banner7.fffead67ba72fbf147a0.gif",
+    "static/media/banner6.jpg": "/static/media/banner6.75f8bd503960f9cf0457.jpg",
+    "static/media/banner2.gif": "/static/media/banner2.8a9159f0602cd7a49952.gif",
+    "static/media/banner8.gif": "/static/media/banner8.910c3911eb197d36bc45.gif",
+    "static/media/banner9.gif": "/static/media/banner9.f585725c88f75b97e4b9.gif",
+    "index.html": "/index.html",
+    "main.033feb72.css.map": "/static/css/main.033feb72.css.map",
+    "main.10b83c36.js.map": "/static/js/main.10b83c36.js.map"
   },
   "entrypoints": [
     "static/css/main.033feb72.css",
-    "static/js/main.95b88232.js"
+    "static/js/main.10b83c36.js"
   ]
 }
